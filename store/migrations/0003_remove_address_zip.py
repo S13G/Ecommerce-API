@@ -4,7 +4,6 @@ from django.db import migrations
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('store', '0002_rename_price_product_unit_price_address_zip_and_more'),
     ]
