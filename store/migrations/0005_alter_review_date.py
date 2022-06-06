@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('store', '0004_alter_collection_options_alter_customer_options_and_more'),
     ]
