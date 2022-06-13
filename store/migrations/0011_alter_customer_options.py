@@ -4,7 +4,6 @@ from django.db import migrations
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('store', '0010_alter_order_options'),
     ]
@@ -12,6 +11,7 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AlterModelOptions(
             name='customer',
-            options={'ordering': ['user__first_name', 'user__last_name'], 'permissions': [('view_history', 'Can view history')]},
+            options={'ordering': ['user__first_name', 'user__last_name'],
+                     'permissions': [('view_history', 'Can view history')]},
         ),
     ]
