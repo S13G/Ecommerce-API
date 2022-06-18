@@ -5,7 +5,6 @@ from django.contrib import admin
 from django.core.validators import MinValueValidator
 from django.db import models
 
-
 # Create your models here.
 from store.validators import validate_file_size
 
