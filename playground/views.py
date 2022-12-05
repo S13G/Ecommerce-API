@@ -2,7 +2,7 @@ from django.core.mail import send_mail, mail_admins, BadHeaderError
 from django.shortcuts import render
 
 
-# Create your views here.
+# Create your views here
 
 
 def say_hello(request):
