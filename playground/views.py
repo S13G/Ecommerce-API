@@ -10,4 +10,4 @@ def say_hello(request):
         mail_admins('subject', 'message', html_message='message')
     except BadHeaderError:
         pass
-    return render(request, 'hello.html', {'name': 'Sieg'})
+    return render(request, 'hello.html', {'name': 'S13g'})
